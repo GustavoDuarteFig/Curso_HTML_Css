@@ -1,37 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Blog Exemplo</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Meu Portfólio</h1>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre Mim</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Nome do Blog</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    
-    <section id="sobre" class="sobre-mim">
-        <h2>Sobre Mim</h2><br><br>
-        <p>Sou um desenvolvedor apaixonado por criar interfaces incríveis e responsivas.</p>
-    </section>
-    
-    <section id="projetos" class="galeria">
-        <div class="projeto">Projeto 1</div>
-        <div class="projeto">Projeto 2</div>
-        <div class="projeto">Projeto 3</div>
-        <div class="projeto">Projeto 4</div>
-    </section>
-    
+
+    <main>
+        <div class="container">
+            <article class="post">
+                <h2>Título da Postagem 1</h2>
+                <img src="imagem1.jpg" alt="Imagem relacionada à postagem 1">
+                <p>Resumo da postagem 1. Aqui está um breve texto explicando do que se trata a postagem.</p>
+                <button class="read-more">Leia Mais</button>
+            </article>
+
+            <article class="post">
+                <h2>Título da Postagem 2</h2>
+                <img src="imagem2.jpg" alt="Imagem relacionada à postagem 2">
+                <p>Resumo da postagem 2. Aqui está um breve texto explicando do que se trata a postagem.</p>
+                <button class="read-more">Leia Mais</button>
+            </article>
+
+            <article class="post">
+                <h2>Título da Postagem 3</h2>
+                <img src="imagem3.jpg" alt="Imagem relacionada à postagem 3">
+                <p>Resumo da postagem 3. Aqui está um breve texto explicando do que se trata a postagem.</p>
+                <button class="read-more">Leia Mais</button>
+            </article>
+        </div>
+    </main>
+
     <footer>
-        <p>&copy; 2025 Meu Nome. Todos os direitos reservados.</p>
+        <div class="container">
+            <p>&copy; 2025 Gustavo Duarte | Todos os direitos reservados.</p>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
